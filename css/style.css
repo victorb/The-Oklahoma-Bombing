@@ -1,0 +1,250 @@
+.clear {
+	clear: both;
+}
+
+html {
+	background-color: #382A2A;
+	font-size: 18px;
+	font-family: Georgia, Serif;
+}
+
+header {
+	position: relative;
+	width: 100%;
+	min-height: 240px;
+	height: auto;
+}
+
+header img {
+	width: 100%;
+	height: auto;
+}
+
+header h1 {
+	display: block;
+	position: absolute;
+	top: 43%;
+	width: 100%;
+	height: 150px;
+	margin-top: -75px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 3em;
+	color: white;
+}
+
+header h2 {
+	position: absolute;
+	top: 55%;
+	width: 100%;
+	text-align: center;
+	height: 150px;
+	margin-top: -75px;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	color: white;
+}
+
+header h3 {
+	position: absolute;
+	top: 90%;
+	width: 100%;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: -75px;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.3em;
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+}
+
+section {
+	background-color: #2F3838;
+	color: #FFF2C7;
+	margin: 0;
+}
+
+section p {
+	
+	font-size: 1.2em;
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+	line-height: 1.5em;
+}
+
+section p.large {
+	font-size: 1.2em;
+}
+
+section b {
+	font-weight: bolder;
+	font-size: 1.1em;
+}
+
+section div {
+	padding: 1em;
+	/*background-color: green;*/
+	background-color: rgba(0,0,0,0.8);
+	margin-left: 1em;
+	width: 40em;
+}
+
+section div.quote {
+	line-height: 1.6em;
+	padding: 1em;
+	width: 90%;
+	margin-left: 0.6em;
+	font-size: 1.4em;
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
+section#planning {
+	background: url(../imgs/Mountcarmelfire04-19-93-l.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section#planning:hover > div {
+	background-color: rgba(0,0,0,0.3);
+	opacity: 0.3;
+}
+
+section#planning div:hover {
+	background-color: rgba(0,0,0,0.8);
+	opacity: 1.0;
+}
+
+section#planning2 {
+	background: url(../imgs/Downtown_Oklahoma_City-1.JPG) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+section#creatingBomb {
+	background: url(../imgs/Alfred_P._Murrah_Federal_Building_before_destruction.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 1em;
+}
+
+section#creatingBomb div {
+	width: 90%;
+	margin: 0 auto;
+	background: none;
+	font-size: 1.2em;
+}
+
+section#bombing {
+	background: url(../imgs/Okc_bombing_2.JPG) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section#bombing:hover > div {
+	opacity: 0.3;
+}
+
+section#bombing div{
+	right: 1em;
+}
+
+section#bombing div:hover {
+	opacity: 1.0;
+}
+
+section#bomb {
+	background: url(../imgs/Oklahoma_City_Bombing.jpg) no-repeat center center;
+	min-height: 680px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section#aftermath {
+	background: url(../imgs/Oklahomacitybombing-DF-ST-96-00587.jpg) no-repeat center center;
+	min-height: 680px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	/*background-color: #2C2D36;*/
+}
+
+section#aftermath p {
+	border-bottom: 5px dotted rgba(78, 94, 162, 0.2);
+	padding-bottom: 0.5em;
+}
+
+section#aftermath p:last-child {
+	border-bottom: 0;
+}
+
+section#aftermath div{
+	width: 90%;
+	margin: 1em auto;
+	text-align: center;
+	font-size: 2em;
+	background: none;
+}
+
+section#aftermath div:first-child {
+	margin-top: 0;
+}
+
+section#aftermath div:last-child {
+	margin-bottom: 0;
+}
+
+section#theEnd {
+	background: url(../imgs/OKC_National_Memorial_chair_reflection.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	min-height: 600px;
+	position: relative;
+}
+
+section#theEnd #memName {
+	position: absolute;
+	bottom: 5em;
+	right: 5em;
+	width: auto;
+}
+
+section#theEnd:hover > div {
+	opacity: 0.2;
+}
+
+section#theEnd:hover > #memName {
+	opacity: 1;
+}
+
+section#theEnd div:hover {
+	opacity: 1;
+}
+
+a {
+	color: #FFF;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #E2DC82;
+}
